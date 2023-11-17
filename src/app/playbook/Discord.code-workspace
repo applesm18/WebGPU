@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../Discord"
+		},
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../oxt"
+		},
+		{
+			"path": "../../../../../../Work/webgpu-seed"
+		},
+		{
+			"path": "../../../../ref/webgpu-gerstner-waves"
+		}
+	],
+	"settings": {}
+}

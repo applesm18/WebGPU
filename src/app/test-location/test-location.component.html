@@ -1,0 +1,37 @@
+<form class="test-location">
+  <!-- <h4>mat-select</h4>
+  <mat-form-field>
+    <mat-label>Favorite food</mat-label>
+    <mat-select [(ngModel)]="selectedValue" name="food">
+      <mat-option *ngFor="let food of foods" [value]="food.value">
+        {{food.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <p> Selected food: {{selectedValue}} </p> -->
+
+  <h4>Select Location</h4>
+  <p> Top Story: {{selectedLocation}} </p>
+  <h4>Select Location</h4>
+  <mat-form-field>
+    <mat-label>Favorite Location</mat-label>
+    <select matNativeControl [(ngModel)]="selectedLocation" name="car">
+      <option value="" selected></option>
+      <option *ngFor="let location of locations" [value]="location.value">
+        {{location.viewValue}}
+      </option>
+    </select>
+  </mat-form-field>
+
+
+  <h4>Search Story Book</h4>
+  <input/>
+  <button>Search</button>
+
+  <h4>faverite story</h4>
+
+  <h4>funny story</h4>
+
+  <h4>top story</h4>
+
+</form>
